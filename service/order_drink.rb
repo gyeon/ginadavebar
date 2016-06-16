@@ -10,7 +10,7 @@ class OrderDrink
     drink = OrderDrink.new(name, quantity, bartender)
     drink.total_cost = name.cost * quantity
     bartender.revenue += drink.total_cost
-    bartender.bar.revenue += drink.total_cost
+    bartender.bar.total_revenue += drink.total_cost
   end
 
 end

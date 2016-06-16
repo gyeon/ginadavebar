@@ -10,7 +10,9 @@ class Bar
   end
   def best_bartender
     #go through bartenders, find their total revenue and sort by biggest
-    self.bartenders.sort_by {|bartender| bartender.revenue}.last
+    best = self.bartenders.sort_by {|bartender| bartender.revenue}
+    best.last.name
+
     #this returns array of revenues
 
 

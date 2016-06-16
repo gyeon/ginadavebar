@@ -1,9 +1,8 @@
 class Drink
   @@all = []
   attr_accessor :cost, :bartender, :drink_name
-  def initialize(drink_name, cost, bartender)
+  def initialize(drink_name, cost)
     @drink_name = drink_name
-    @bartender = bartender
     @cost = cost
     @@all << self
   end

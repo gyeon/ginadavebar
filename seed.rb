@@ -1,3 +1,3 @@
 @bar = Bar.new("Dave's Bar")
-@bar.bartenders = [Bartender.new("Gina", @bar), Bartender.new("Grace", @bar), Bartender.new("Dan", @bar)]
-@drink = Drink.new("Budweiser", 5)
+@bar.bartenders = [Bartender.new("gina", @bar), Bartender.new("grace", @bar), Bartender.new("dan", @bar)]
+@drink = Drink.new("budweiser", 5)
